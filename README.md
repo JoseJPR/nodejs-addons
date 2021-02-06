@@ -5,7 +5,7 @@
 
 <h1 align="center">NodeJS C++ Addons</h1>
 
-<p align="center">🎓 This repository contains C++ Addons Examples for NodeJS.</p>
+<p align="center">💪 This repository contains C++ Addons Examples for NodeJS.</p>
 
 <p align="center">
   <a title="MIT License" href="LICENSE.md">
@@ -23,11 +23,12 @@
 
 ## 🔖 Description
 
-WIP: I will add some examples as I need them.
+The main idea is to document with examples and tips on how to create plugins with C ++ for NodeJS. C and C ++ were my first programming languages, I learned the basics with them and I am very fond of them (although I am rusty 😆).
 
 ## 🌍 Websites of Interest
 
-WIP.
+- [NodeJS | C++ addons](https://nodejs.org/api/addons.html)
+- [Github | Node.js native addon build tool](https://github.com/nodejs/node-gyp)
 
 ## 📌 Methodologies and Guidelines
 
