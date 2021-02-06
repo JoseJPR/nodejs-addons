@@ -85,8 +85,9 @@ $node-gyp build
 ├── env 🔌                        # Configure enviroments deploy.
 ├── src 💯
 |   ├── hello-world               # First Addon.
-|   |   ├── example01             # Show hello word message.
-|   |   └── example02             # WIP.
+|   |   ├── example01             # Show Hello word message.
+|   |   ├── example02             # Add colors and reset default color.
+|   |   └── example03             # WIP.
 |   └── ...
 └── ...
 ```
