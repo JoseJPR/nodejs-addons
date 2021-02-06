@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-addons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJPR/nodejs-addons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseJPR/nodejs-addons/issues"
+  },
+  "homepage": "https://github.com/JoseJPR/nodejs-addons#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
