@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="./assets/banner.png" width="250" />
-  <br /> <br /> <br />
+  <img src="./assets/banner.png" />
+  <br /> <br />
 </p>
 
 <h1 align="center">NodeJS C++ Addons</h1>
