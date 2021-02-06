@@ -58,6 +58,24 @@ $npm i
 $node ./src/'folder'/'file.js'
 ```
 
+## 📦 How to prepare and build a C++ Addons
+
+### Install NodeJS Dependences
+
+```bash
+$mpn i -g node-gyp
+```
+
+### Generate the appropriate project build files.
+```bash
+$node-gyp configure
+```
+
+## Build the addon project.
+```bash
+$node-gyp build
+```
+
 ## 📂 Code scaffolding
 
 ```any
@@ -65,7 +83,9 @@ $node ./src/'folder'/'file.js'
 ├── assets 🌈                     # Images Sources.
 ├── env 🔌                        # Configure enviroments deploy.
 ├── src 💯
-|   ├── exampleXX                 # WIP.
+|   ├── hello-world               # First Addon.
+|   |   ├── example01             # Show hello word message.
+|   |   └── example02             # WIP.
 |   └── ...
 └── ...
 ```
