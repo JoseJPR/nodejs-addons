@@ -89,7 +89,8 @@ $node-gyp build
 |   |   ├── example01             # Show Hello word message.
 |   |   ├── example02             # Add colors and reset default color.
 |   |   ├── example03             # Send and get parameters number and type.
-|   |   └── example04             # WIP.
+|   |   ├── example04             # Return from addon to js the number of params.
+|   |   └── example05             # WIP.
 |   └── ...
 └── ...
 ```
