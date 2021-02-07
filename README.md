@@ -85,13 +85,16 @@ $node-gyp build
 ├── assets 🌈                     # Images Sources.
 ├── env 🔌                        # Configure enviroments deploy.
 ├── src 💯
-|   ├── hello-world               # First Addon.
+|   ├── hello-world               
 |   |   ├── example01             # Show Hello word message.
-|   |   ├── example02             # Add colors and reset default color.
-|   |   ├── example03             # Send and get parameters number and type.
-|   |   ├── example04             # Return from addon to js the number of params.
-|   |   ├── example05             # Return from addon to js the value of params.
-|   |   └── example06             # WIP.
+|   |   └── example02             # Add colors and reset default color.
+|   |
+|   ├── params               
+|   |   ├── example01             # Send and get parameters number and type.
+|   |   ├── example02             # Return from addon to js the number of params.
+|   |   ├── example03             # Return from addon to js the value of params.
+|   |   └── example04             # WIP.
+|   |
 |   └── ...
 └── ...
 ```
