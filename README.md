@@ -29,6 +29,7 @@ The main idea is to document with examples and tips on how to create plugins wit
 
 - [NodeJS | C++ addons](https://nodejs.org/api/addons.html)
 - [Github | Node.js native addon build tool](https://github.com/nodejs/node-gyp)
+- [C++ and Node.js: An Unholy Combination….But Oh So Right](https://benfarrell.com/2013/01/03/c-and-node-js-an-unholy-combination-but-oh-so-right/)
 
 ## 📌 Methodologies and Guidelines
 
@@ -87,7 +88,8 @@ $node-gyp build
 |   ├── hello-world               # First Addon.
 |   |   ├── example01             # Show Hello word message.
 |   |   ├── example02             # Add colors and reset default color.
-|   |   └── example03             # WIP.
+|   |   ├── example03             # Send and get parameters number and type.
+|   |   └── example04             # WIP.
 |   └── ...
 └── ...
 ```
