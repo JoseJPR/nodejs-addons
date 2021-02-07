@@ -90,7 +90,8 @@ $node-gyp build
 |   |   ├── example02             # Add colors and reset default color.
 |   |   ├── example03             # Send and get parameters number and type.
 |   |   ├── example04             # Return from addon to js the number of params.
-|   |   └── example05             # WIP.
+|   |   ├── example05             # Return from addon to js the value of params.
+|   |   └── example06             # WIP.
 |   └── ...
 └── ...
 ```
