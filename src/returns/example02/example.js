@@ -3,7 +3,7 @@ const addon = require('./addon/build/Release/addon');
 
 // Instance method.
 const runAddon = () => {
-  console.log(`Number of params: ${addon.helloWorld('Hello', 'World')}`);
+  console.log(`Number of params: ${addon.handler('Hello from NodeJS')}`);
 }
 
 // Run function.

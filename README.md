@@ -85,15 +85,26 @@ $node-gyp build
 ├── assets 🌈                     # Images Sources.
 ├── env 🔌                        # Configure enviroments deploy.
 ├── src 💯
+|   ├── bucles               
+|   |   ├── example01             # Working with bucle while and int.
+|   |   └── example02             # Working with bucle for and int.
+|   |
 |   ├── hello-world               
 |   |   ├── example01             # Show Hello word message.
 |   |   └── example02             # Add colors and reset default color.
 |   |
+|   ├── methods               
+|   |   ├── example01             # Define two public method into the addons.
+|   |   └── example02             # Define two public method and one internal.
+|   |
 |   ├── params               
-|   |   ├── example01             # Send and get parameters number and type.
-|   |   ├── example02             # Return from addon to js the number of params.
-|   |   ├── example03             # Return from addon to js the value of params.
-|   |   └── example04             # WIP.
+|   |   ├── example01             # Get if param is number, string and the length.
+|   |   └── example02             # WIP.
+|   |
+|   ├── returns               
+|   |   ├── example01             # Return from addon to js the number of params.
+|   |   ├── example02             # Return from addon to js the value of the param.
+|   |   └── example03             # WIP.
 |   |
 |   └── ...
 └── ...

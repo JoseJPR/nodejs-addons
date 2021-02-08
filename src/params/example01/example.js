@@ -2,7 +2,7 @@
 const addon = require('./addon/build/Release/addon');
 
 // Instance method.
-const runAddon = () => addon.helloWorld('Jose');
+const runAddon = () => addon.handler('Jose');
 
 // Run function.
 runAddon();
