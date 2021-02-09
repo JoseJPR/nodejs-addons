@@ -99,7 +99,8 @@ $node-gyp build
 |   |
 |   ├── operators
 |   |   ├── example01             # Sum, sub, multi and div with two int.
-|   |   └── example02             # Increment and decrement with two int.
+|   |   ├── example02             # Increment and decrement with two int.
+|   |   └── example03             # Working with div and precision with decimals.
 |   |
 |   ├── bucles
 |   |   ├── example01             # Working with bucle while.
