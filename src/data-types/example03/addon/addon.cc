@@ -1,16 +1,16 @@
 #include <node.h>
 #include <iostream>
+#include <string>
 
 using namespace v8;
 using namespace std;
 
 void Handler(const FunctionCallbackInfo<Value>& args) {
-   int sum = 0;
-   int limit = 2;
-   while (sum <= limit) {
-      sum++;
-   }
-   cout << "Bucle While Sum = " << sum << endl;
+   string _type_string_1 = "A";
+   string _type_string_2 = "Hello World";
+
+   cout << _type_string_1 << endl;
+   cout << _type_string_2 << endl;
 }
 
 void Initialize(Local<Object> exports) {

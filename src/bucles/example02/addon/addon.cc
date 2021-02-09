@@ -5,10 +5,10 @@ using namespace v8;
 using namespace std;
 
 void Handler(const FunctionCallbackInfo<Value>& args) {
-   int n = 2;
    int sum = 0;
-   for (int i = 0; i <= n; i++) {
-      sum += i;
+   int limit = 2;
+   for (int i = 0; i <= limit; i++) {
+      sum++;
    }
    cout << "Bucle For Sum = " << sum << endl;
 }

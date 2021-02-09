@@ -5,12 +5,14 @@ using namespace v8;
 using namespace std;
 
 void Handler(const FunctionCallbackInfo<Value>& args) {
-   int sum = 0;
    int limit = 2;
-   while (sum <= limit) {
-      sum++;
+   int sum = 0;
+   for (int i = 0; i <= 2; i++) {
+      for (int i = 0; i <= limit; i++) {
+         sum++;
+      }
+      cout << "Bucle For Sum = " << sum << endl;
    }
-   cout << "Bucle While Sum = " << sum << endl;
 }
 
 void Initialize(Local<Object> exports) {

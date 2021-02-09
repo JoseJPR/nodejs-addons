@@ -86,13 +86,21 @@ $node-gyp build
 ├── assets 🌈                     # Images Sources.
 ├── env 🔌                        # Configure enviroments deploy.
 ├── src 💯
-|   ├── bucles               
-|   |   ├── example01             # Working with bucle while and int.
-|   |   └── example02             # Working with bucle for and int.
-|   |
 |   ├── hello-world               
 |   |   ├── example01             # Show Hello word message.
 |   |   └── example02             # Add colors and reset default color.
+|   |
+|   ├── data-types               
+|   |   ├── example01             # Working with int, float and double.
+|   |   ├── example02             # Working with char and char array.
+|   |   ├── example03             # Working with string.
+|   |   └── example04             # Working with bool.
+|   |
+|   ├── bucles               
+|   |   ├── example01             # Working with bucle while.
+|   |   ├── example02             # Working with bucle for.
+|   |   ├── example03             # Working with bucle do while.
+|   |   └── example04             # Working with nested loops.
 |   |
 |   ├── methods               
 |   |   ├── example01             # Define two public method into the addons.
@@ -106,7 +114,6 @@ $node-gyp build
 |   |   ├── example01             # Return from addon to js the number of params.
 |   |   ├── example02             # Return from addon to js the value of the param.
 |   |   └── example03             # WIP.
-|   |
 |   └── ...
 └── ...
 ```
