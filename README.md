@@ -102,6 +102,11 @@ $node-gyp build
 |   |   ├── example02             # Increment and decrement with two int.
 |   |   └── example03             # Working with div and precision with decimals.
 |   |
+|   ├── conditionals
+|   |   ├── example01             # TODO.
+|   |   ├── example02             # TODO.
+|   |   └── example03             # TODO.
+|   |
 |   ├── bucles
 |   |   ├── example01             # Working with bucle while.
 |   |   ├── example02             # Working with bucle for.
@@ -113,13 +118,11 @@ $node-gyp build
 |   |   └── example02             # Define two public method and one internal.
 |   |
 |   ├── params
-|   |   ├── example01             # Get if param is number, string and the length.
-|   |   └── example02             # WIP.
+|   |   └── example01             # Get if param is number, string and the length.
 |   |
 |   ├── returns
 |   |   ├── example01             # Return from addon to js the number of params.
-|   |   ├── example02             # Return from addon to js the value of the param.
-|   |   └── example03             # WIP.
+|   |   └── example02             # Return from addon to js the value of the param.
 |   └── ...
 └── ...
 ```
