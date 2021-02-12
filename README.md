@@ -67,7 +67,7 @@ $node ./src/'folder'/'file.js'
 ### Install NodeJS Dependences
 
 ```bash
-$mpn i -g node-gyp
+$npm i -g node-gyp
 ```
 
 ### Generate the appropriate project build files.
