@@ -97,15 +97,23 @@ $node-gyp build
 |   |   ├── example03             # Working with string.
 |   |   └── example04             # Working with bool.
 |   |
+|   ├── arrays
+|   |   ├── example01             # Create array with int values and show by index.
+|   |   ├── example02             # Read the number of bytes that an array with int occupies.
+|   |   ├── example03             # Create array with strings values and show by index.
+|   |   ├── example04             # Read the number of bytes that an array with strings occupies.
+|   |   ├── example05             # Execute other function and return array strings.
+|   |   ├── example06             # Execute other function with internal bucle for and return array strings.
+|   |   └── example07             # Execute other function with internal bucle for and show the array size.
+|   |
 |   ├── operators
 |   |   ├── example01             # Sum, sub, multi and div with two int.
 |   |   ├── example02             # Increment and decrement with two int.
 |   |   └── example03             # Working with div and precision with decimals.
 |   |
 |   ├── conditionals
-|   |   ├── example01             # TODO.
-|   |   ├── example02             # TODO.
-|   |   └── example03             # TODO.
+|   |   ├── example01             # Use if and else conditionals.
+|   |   └── example02             # Working with switch conditionals.
 |   |
 |   ├── bucles
 |   |   ├── example01             # Working with bucle while.
