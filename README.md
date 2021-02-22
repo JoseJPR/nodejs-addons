@@ -3,7 +3,7 @@
   <br /> <br />
 </p>
 
-<h1 align="center">NodeJS C++ Addons</h1>
+<h1 align="center">Node.js C++ Addons</h1>
 
 <p align="center">💪 This repository contains C++ Addons Examples for NodeJS.</p>
 
@@ -23,11 +23,11 @@
 
 ## 🔖 Description
 
-The main idea is to document with examples and tips on how to create plugins with C ++ for NodeJS. C and C ++ were my first programming languages, I learned the basics with them and I am very fond of them (although I am rusty 😆).
+The main idea is to document with examples and tips on how to create plugins with C ++ for Node.js. C and C ++ were my first programming languages, I learned the basics with them and I am very fond of them (although I am rusty 😆).
 
 ## 🌍 Websites of Interest
 
-- [NodeJS | C++ addons](https://nodejs.org/api/addons.html)
+- [Node.js | C++ addons](https://nodejs.org/api/addons.html)
 - [Github | Node.js native addon build tool](https://github.com/nodejs/node-gyp)
 - [v8 API](https://v8docs.nodesource.com/node-15.0/)
 - [C++ and Node.js: An Unholy Combination….But Oh So Right](https://benfarrell.com/2013/01/03/c-and-node-js-an-unholy-combination-but-oh-so-right/)
@@ -50,7 +50,7 @@ In order to work with this project, your local environment must have at least th
 
 ## 📐 How to work with this project
 
-### Install NodeJS Dependences
+### Install Dependencies
 
 ```bash
 $npm i
@@ -64,7 +64,7 @@ $node ./src/'folder'/'file.js'
 
 ## 📦 How to prepare and build a C++ Addons
 
-### Install NodeJS Dependences
+### Install Dependencies
 
 ```bash
 $npm i -g node-gyp
